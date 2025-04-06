@@ -78,10 +78,10 @@
             //                    | ALT | LWR | SPC |   | ENT | RSE | GUI |
 
             bindings = <
-&kb TAB  &none           &kb UP_ARROW    &none            &none   &none     &none   &none   &none  &none  &none  &trans
-&trans   &kb LEFT_ARROW  &kb DOWN_ARROW  &kb RIGHT_ARROW  &none   &none     &none   &none   &none  &none  &none  &trans
+&kp TAB  &none           &kp UP_ARROW    &none            &none   &none     &none   &none   &none  &none  &none  &trans
+&trans   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none   &none     &none   &none   &none  &none  &none  &trans
 &trans   &none           &none           &none            &none   &none     &none   &none   &none  &none  &none  &trans
-                                         &kb LALT         &trans  &trans    &trans  &trans  &trans
+                                         &kp LALT         &trans  &trans    &trans  &trans  &trans
             >;
         };
 
